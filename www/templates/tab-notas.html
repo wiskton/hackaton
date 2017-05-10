@@ -1,0 +1,41 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding" ng-controller="NotasCtrl as ctrl">
+
+    <div class="list card" ng-repeat="data in ctrl.notas">
+
+      <div class="item item-balanced">
+        <h2>{{data.id}} - {{data.disciplina}}</h2>
+      </div>
+
+      <div class="item item-body">
+        <div class="row">
+          <div class="col">Faltas</div>
+          <div class="col">N1</div>
+          <div class="col">N2</div>
+          <div class="col">N3</div>
+          <div class="col">N4</div>
+          <div class="col">Rec.</div>
+          <div class="col">Média</div>
+          <div class="col">Final</div>
+          <div class="col">Resultado</div>
+        </div>
+        <div class="row">
+          <div class="col">{{data.faltas}}</div>
+          <div class="col">{{data.nota1}}</div>
+          <div class="col">{{data.nota2}}</div>
+          <div class="col">{{data.nota3}}</div>
+          <div class="col">{{data.nota4}}</div>
+          <div class="col">{{data.recuperacao}}</div>
+          <div class="col">{{data.media}}</div>
+          <div class="col">{{data.final}}</div>
+          <div class="col">{{data.resultado}}</div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+  </ion-content>
+</ion-view>
