@@ -32,8 +32,13 @@ angular.module('starter.services', [])
   }, {
     id: 5,
     name: 'Jansen Duarte',
-    lastText: 'Atualize o drive com projeto do PI',
+    lastText: 'Atualizei o drive com projeto do PI',
     face: 'img/jansen.jpg'
+  }, {
+    id: 6,
+    name: 'Flavio Novi',
+    lastText: 'Ryzen é melhor para renderizar',
+    face: 'img/flavio.jpg'
   }];
 
   return {
