@@ -1,4 +1,4 @@
-<ion-view view-title="Dashboard">
+<ion-view view-title="Notas e Faltas">
   <ion-content class="padding" ng-controller="NotasCtrl as ctrl">
 
     <div class="list card" ng-repeat="data in ctrl.notas">
@@ -8,47 +8,45 @@
       </div>
 
       <div class="item item-body">
-        <div class="row">
-          <div class="col col-30" align="right">Faltas</div>
+        <div class="row item">
+          <div class="col col-30">Faltas</div>
           <div class="col col-70">{{data.faltas}}</div>
         </div>
-        <div class="row">
-          <div class="col col-30" align="right">Nota 1</div>
+        <div class="row item">
+          <div class="col col-30">Nota 1</div>
           <div class="col col-70">{{data.nota1}}</div>
         </div>
-        <div class="row">
-          <div class="col col-30" align="right">Nota 2</div>
+        <div class="row item">
+          <div class="col col-30">Nota 2</div>
           <div class="col col-70">{{data.nota2}}</div>
         </div>
-        <div class="row">
-          <div class="col col-30" align="right">Nota 3</div>
+        <div class="row item">
+          <div class="col col-30">Nota 3</div>
           <div class="col col-70">{{data.nota3}}</div>
         </div>
-        <div class="row">
-          <div class="col col-30" align="right">Nota 4</div>
+        <div class="row item">
+          <div class="col col-30">Nota 4</div>
           <div class="col col-70">{{data.nota4}}</div>
         </div>
-        <div class="row">
-          <div class="col col-30" align="right">Recuperação</div>
+        <div class="row item">
+          <div class="col col-30">Recuperação</div>
           <div class="col col-70">{{data.recuperacao}}</div>
         </div>
-        <div class="row">
-          <div class="col col-30" align="right">Média</div>
+        <div class="row item">
+          <div class="col col-30">Média</div>
           <div class="col col-70">{{data.media}}</div>
         </div>
-        <div class="row">
-          <div class="col col-30" align="right">Final</div>
+        <div class="row item">
+          <div class="col col-30">Final</div>
           <div class="col col-70">{{data.final}}</div>
         </div>
-        <div class="row">
-          <div class="col col-30" align="right">Resultado</div>
+        <div class="row item">
+          <div class="col col-30">Resultado</div>
           <div class="col col-70">{{data.resultado}}</div>
         </div>
       </div>
 
     </div>
-
-
 
   </ion-content>
 </ion-view>
