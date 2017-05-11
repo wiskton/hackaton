@@ -113,11 +113,6 @@ angular.module('starter.controllers', [])
     name: 'Flavio Novi',
     tipo: 'Docente',
     imagem: 'img/flavio.jpg'
-  }, {
-    id: 7,
-    name: 'Flavio Novi',
-    tipo: 'Docente',
-    imagem: 'img/flavio.jpg'
   }];
 
 })
