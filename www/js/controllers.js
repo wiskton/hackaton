@@ -73,3 +73,51 @@ angular.module('starter.controllers', [])
   }];
 
 })
+
+.controller('ContatosCtrl', function($scope, $stateParams, Chats) {
+
+  var ctrl = this;
+
+  ctrl.contatos = [{
+    id: 0,
+    name: 'Diogo Porfirio',
+    tipo: 'Docente',
+    imagem: 'img/diogo.png'
+  }, {
+    id: 1,
+    name: 'Guilherme Torres',
+    tipo: 'Coordenador',
+    imagem: 'img/guilherme.jpg'
+  }, {
+    id: 2,
+    name: 'João Pedro',
+    tipo: 'Aluno',
+    imagem: 'img/joao.jpg'
+  }, {
+    id: 3,
+    name: 'Mauricio Ioshimine',
+    tipo: 'Aluno',
+    imagem: 'img/mauricio.jpg'
+  }, {
+    id: 4,
+    name: 'Vitor Aleixo',
+    tipo: 'Aluno',
+    imagem: 'img/vitor.jpg'
+  }, {
+    id: 5,
+    name: 'Jansen Duarte',
+    tipo: 'Aluno',
+    imagem: 'img/jansen.jpg'
+  }, {
+    id: 6,
+    name: 'Flavio Novi',
+    tipo: 'Docente',
+    imagem: 'img/flavio.jpg'
+  }, {
+    id: 7,
+    name: 'Flavio Novi',
+    tipo: 'Docente',
+    imagem: 'img/flavio.jpg'
+  }];
+
+})

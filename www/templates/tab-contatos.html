@@ -1,0 +1,20 @@
+<ion-view view-title="Contatos">
+  <ion-content class="padding" ng-controller="ContatosCtrl as ctrl">
+
+    <div class="list">
+
+      <a class="item item-avatar" href="#/tab/group/{{data.id}}">
+        <img src="img/add_group.png">
+        <h2>Novo Grupo</h2>
+      </a>
+
+      <a class="item item-avatar" href="#/tab/chats/{{data.id}}" ng-repeat="data in ctrl.contatos">
+        <img src="{{data.imagem}}">
+        <h2>{{data.name}}</h2>
+        <p>{{data.tipo}}</p>
+      </a>
+
+    </div>
+
+  </ion-content>
+</ion-view>

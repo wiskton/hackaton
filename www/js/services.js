@@ -8,37 +8,50 @@ angular.module('starter.services', [])
     id: 0,
     name: 'Diogo Porfirio',
     lastText: 'Como esta o PI?',
-    face: 'img/diogo.png'
+    face: 'img/diogo.png',
+    grupo: 0
   }, {
     id: 1,
     name: 'Guilherme Torres',
     lastText: 'Atualiza a tabela do campeonato de Mortal Kombat',
-    face: 'img/guilherme.jpg'
+    face: 'img/guilherme.jpg',
+    grupo: 0
   }, {
     id: 2,
     name: 'João Pedro',
     lastText: 'Enviei os arquivos do PI para o drive',
-    face: 'img/joao.jpg'
+    face: 'img/joao.jpg',
+    grupo: 0
   }, {
     id: 3,
     name: 'Mauricio Ioshimine',
     lastText: 'Atualizei o roteiro do PI',
-    face: 'img/mauricio.jpg'
+    face: 'img/mauricio.jpg',
+    grupo: 0
   }, {
     id: 4,
     name: 'Vitor Aleixo',
     lastText: 'Já modelei a nave pro game jam',
-    face: 'img/vitor.jpg'
+    face: 'img/vitor.jpg',
+    grupo: 0
   }, {
     id: 5,
     name: 'Jansen Duarte',
     lastText: 'Atualizei o drive com projeto do PI',
-    face: 'img/jansen.jpg'
+    face: 'img/jansen.jpg',
+    grupo: 0
   }, {
     id: 6,
     name: 'Flavio Novi',
     lastText: 'Ryzen é melhor para renderizar',
-    face: 'img/flavio.jpg'
+    face: 'img/flavio.jpg',
+    grupo: 0
+  }, {
+    id: 7,
+    name: '3/A Jogos Digitais',
+    lastText: 'Guilherme Torres: hoje tem aula normal',
+    face: 'img/3a_jd.png',
+    grupo: 1
   }];
 
   return {
